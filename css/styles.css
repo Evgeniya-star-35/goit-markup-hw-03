@@ -1,0 +1,201 @@
+:root {
+  --primary-text-color: #212121;
+  --secondary-text-color: #757575;
+  --accent-color: #2196f3;
+  --primery-white-color: #ffffff;
+  --secondary-background-color: #f5f4fa;
+  --accent-background-color: #2196f3;
+  --button-hero-text-color: #ffffff;
+  --bg-hero-color: #2f303a;
+}
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: var(--primery-white-color);
+  color: var(--primary-text-color);
+}
+/*утилита*/
+.visually-hidden {
+  position: absolute !important;
+  clip: rect(1px 1px 1px 1px);
+  clip: rect(1px, 1px, 1px, 1px);
+  padding: 0 !important;
+  border: 0 !important;
+  height: 1px !important;
+  width: 1px !important;
+  overflow: hidden;
+}
+/* цвет основного текста #212121 */
+/* вторичный цвет текста #757575 */
+/* белый #FFFFFF */
+/* акцент  #2196F3*/
+/* borders  #EEEEEE*/
+/*стилизация логотипа*/
+.logo {
+  font-family: Raleway;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+}
+
+.span-web {
+  color: var(--accent-color);
+}
+
+.span-studio {
+  color: #000000;
+}
+/*стилизация ссылок*/
+.link-item {
+  color: var(--primary-text-color);
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+}
+.link-item:hover,
+.link-item:focus {
+  color: var(--accent-color);
+}
+.site-nav .link-current {
+  color: var(--accent-color);
+  text-decoration: none;
+}
+/*имаил,телефон в хедере*/
+.header-email,
+.header-tel {
+  color: var(--secondary-text-color);
+  text-decoration: none;
+}
+
+/*секция герой 1 стр*/
+.section-hero {
+  background-color: var(--bg-hero-color);
+}
+
+.hero-title {
+  color: var(--button-hero-text-color);
+  background-color: var(--bg-hero-color);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.4;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+.hero-button {
+  color: var(--button-hero-text-color);
+  background-color: var(--accent-color);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.9;
+  display: flex;
+  letter-spacing: 0.06em;
+}
+.hero-button:hover,
+.hero-button:focus {
+  cursor: pointer;
+  color: #188ce8;
+}
+/*заголовки секций*/
+.title-section {
+  color: var(--primary-text-color);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+/*заголовки h2*/
+.title-content {
+  color: var(--primary-text-color);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+/*текстовый контент в секциях*/
+.p-text {
+  color: var(--secondary-text-color);
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+}
+.list {
+  list-style: none;
+}
+/*имена в секции команда*/
+.title-name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.9;
+  letter-spacing: 0.03em;
+  color: var(--primary-text-color);
+}
+/*профессии в секции команда*/
+.prof-itom {
+  color: var(--secondary-text-color);
+  font-size: 16px;
+  line-height: 1.9px;
+  letter-spacing: 0.03em;
+}
+/*кнопки на странице портфолио*/
+.button-filter {
+  color: var(--primary-text-color);
+  background-color: var(--secondary-background-color);
+}
+.work.text-button {
+  color: var(--primary-text-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6px;
+  letter-spacing: 0.03em;
+}
+
+.button-filter:hover,
+.button-filter:focus {
+  cursor: pointer;
+  color: var(--primery-white-color);
+  background-color: var(--accent-background-color);
+}
+
+/*заголовки h2 списка работ*/
+.work-list.title {
+  color: var(--primary-text-color);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+/*текст списка работ*/
+.work-text {
+  color: var(--secondary-text-color);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.8;
+  letter-spacing: 0.03em;
+}
+/*футер*/
+.section-footer {
+  background-color: var(--bg-hero-color);
+}
+.address {
+  color: var(--button-hero-text-color);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+  font-style: normal;
+}
+.email,
+.tel {
+  color: rgba(255, 255, 255, 0.6);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+}
