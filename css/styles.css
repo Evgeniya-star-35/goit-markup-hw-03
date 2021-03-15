@@ -40,7 +40,14 @@ body {
   width: 1200px;
   margin-left: auto;
   margin-right: auto;
-  outline: 2px solid tomato;
+}
+h1,
+h2,
+h3,
+p,
+ul {
+  margin-top: 0;
+  margin-bottom: 0;
 }
 .logo {
   font-family: Raleway;
@@ -72,6 +79,10 @@ body {
 .link-item:focus {
   color: var(--accent-color);
 }
+.link-card {
+  margin-top: 0;
+  margin-bottom: 20px;
+}
 .site-nav .link-current {
   color: var(--accent-color);
   text-decoration: none;
@@ -86,30 +97,27 @@ body {
 /*секция герой 1 стр*/
 .section-hero {
   background-color: var(--bg-hero-color);
-  width: 1600px;
-  margin-top: 0;
-  margin-bottom: 94px;
   padding-top: 200px;
   padding-bottom: 200px;
+  margin-top: 0;
+  margin-bottom: 94px;
+  text-align: center;
   }
 
-.section-hero.title {
+.hero-title {
   margin-top: 0;
   margin-bottom: 30px;
-  color: var(--button-hero-text-color);
-  background-color: var(--bg-hero-color);
+  color: var(--primery-white-color);
   font-weight: 900;
   font-size: 44px;
   line-height: 1.4;
   letter-spacing: 0.06em;
   text-transform: uppercaset;
   text-align: center;
-  outline: 2px solid olivedrab;
-}
+  }
 .hero-button {
   border-radius: 4px;
   padding: 10px 32px;
-  margin-bottom: 200px;
   min-width: 200px;
   border: 1px solid transparent;
   height: 50px;
@@ -120,7 +128,7 @@ body {
   line-height: 1.9;
   display: flex;
   letter-spacing: 0.06em;
- }
+  }
 .hero-button:hover,
 .hero-button:focus {
   cursor: pointer;
@@ -147,8 +155,7 @@ body {
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  outline: 2px solid palevioletred;
-}
+  }
 /*текстовый контент в секциях*/
 .p-text {
   margin-top: 0;
@@ -157,51 +164,50 @@ body {
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
-  outline: 2px solid tomato;
 }
-h1,
-h2,
-h3,
-p,
-ul {
-  margin-top: 0;
-  margin-bottom: 0;
-}
+
 .list {
   padding: 0;
   margin: 0;
   list-style: none;
-  outline: 2px solid orange;
-
 }
 /*имена в секции команда*/
 .title-name {
+  margin-top: 0;
+  margin-bottom: 10px;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.9;
   letter-spacing: 0.03em;
   color: var(--primary-text-color);
-  outline: 2px solid violet;
 }
 /*профессии в секции команда*/
 .prof-itom {
+  margin-top: 0;
+  margin-bottom: 30px;
   color: var(--secondary-text-color);
   font-size: 16px;
-  line-height: 1.9px;
+  line-height: 1.9px; 
   letter-spacing: 0.03em;
-  outline: 2px solid yellow;
 }
   .picture {
     margin-top: 0;
     margin-bottom: 94px;
+  }
+  .card {
+    margin-top: 0;
+    margin-bottom: 30px;
   }
 
   .section {
     padding-top: 94px;
     padding-bottom: 94px;
   }
+ 
 /*кнопки на странице портфолио*/
 .button-filter {
+  padding-top: 0;
+  padding-bottom: 34px;
   border-radius: 4px;
   padding: 6px 22px;
   border: 1px solid transparent;
@@ -211,6 +217,8 @@ ul {
   background-color: var(--secondary-background-color);
 }
 .work.text-button {
+  padding-top: 0;
+  padding-bottom: 34px;
   color: var(--primary-text-color);
   font-weight: 500;
   font-size: 16px;
@@ -227,6 +235,8 @@ ul {
 
 /*заголовки h2 списка работ*/
 .work-list.title {
+  margin-top: 0;
+  margin-bottom: 4px;
   color: var(--primary-text-color);
   font-weight: 700;
   font-size: 18px;
@@ -243,6 +253,8 @@ ul {
   letter-spacing: 0.03em;
   outline: 2px solid #777;
 }
+
+
 /*футер*/
 .section-footer {
   background-color: var(--bg-hero-color);
