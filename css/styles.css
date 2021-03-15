@@ -58,12 +58,19 @@ ul {
   text-decoration: none;
 }
 
+
 .span-web {
   color: var(--accent-color);
 }
 
 .span-studio {
   color: #000000;
+}
+.span-studio-footer {
+  color: var(--primery-white-color);
+}
+.list-footer {
+  text-decoration: none;
 }
 /*стилизация ссылок*/
 .link-item {
@@ -211,6 +218,7 @@ ul {
   border-radius: 4px;
   padding: 6px 22px;
   border: 1px solid transparent;
+  font-weight: 500;
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--primary-text-color);
@@ -258,7 +266,6 @@ ul {
 /*футер*/
 .section-footer {
   background-color: var(--bg-hero-color);
-  outline: 2px solid green;
 }
 .address {
   color: var(--button-hero-text-color);
@@ -267,6 +274,7 @@ ul {
   line-height: 1.7;
   letter-spacing: 0.03em;
   font-style: normal;
+  text-decoration: none;
 }
 .email,
 .tel {
@@ -275,4 +283,10 @@ ul {
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
+  text-decoration: none;
 }
+.list-footer {
+  list-style: none;
+}
+
+
