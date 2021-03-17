@@ -77,11 +77,6 @@ body {
   text-decoration: none;
 }
 
-.header-email,
-.header-tel {
-  color: var(--secondary-text-color);
-  text-decoration: none;
-}
 .contact {
   display: flex;
   margin: auto;
@@ -117,6 +112,11 @@ body {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
+  text-decoration: none;
+}
+.header-email,
+.header-tel {
+  color: var(--secondary-text-color);
   text-decoration: none;
 }
 .link-item:hover,
