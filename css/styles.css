@@ -134,7 +134,8 @@ body {
 /*секция герой 1 стр*/
 .section-hero {
   background-color: var(--bg-hero-color);
-  padding: 200px 252px;
+  padding-top: 200px;
+  padding-bottom: 200px;
   text-align: center;
 }
 
@@ -153,7 +154,6 @@ body {
 .hero-button {
   margin-right: auto;
   margin-left: auto;
-  margin-bottom: 200px;
   border-radius: 4px;
   padding: 10px 32px;
   min-width: 200px;
