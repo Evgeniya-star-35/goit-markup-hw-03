@@ -51,8 +51,8 @@ body {
 }
 
 .section {
-    padding-top: 94px;
-    padding-bottom: 94px;
+  padding-top: 94px;
+  padding-bottom: 94px;
   }
 /*оформление хедера*/
 .main-nav {
@@ -132,17 +132,14 @@ body {
 
 /*секция герой 1 стр*/
 .section-hero {
-  background-color: var(--bg-hero-color);
-  padding-top: 200px;
-  padding-bottom: 200px;
   margin-top: 0;
-  margin-bottom: 94px;
+  background-color: var(--bg-hero-color);
   text-align: center;
-  }
+}
 
 .hero-title {
   margin-top: 0;
-  margin-bottom: 30px;
+  margin-bottom: 0;
   color: var(--primery-white-color);
   font-weight: 900;
   font-size: 44px;
@@ -151,8 +148,10 @@ body {
   text-transform: uppercaset;
   text-align: center;
   }
-.hero-button {margin-right: auto;
+.hero-button {
+  margin-right: auto;
   margin-left: auto;
+  margin-top: 30px;
   border-radius: 4px;
   padding: 10px 32px;
   min-width: 200px;
@@ -169,7 +168,8 @@ body {
 .hero-button:hover,
 .hero-button:focus {
   cursor: pointer;
-  color: #188ce8;
+  color: var(--button-hero-text-color);
+  background-color: #188ce8;
 }
 /*секция преимущества*/
 .advantages {
@@ -261,7 +261,9 @@ body {
 
 /*имена в секции команда*/
 .team-name {
+  margin-top: 0;
   margin-bottom: 0;
+  padding-bottom: 10px;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.9;
@@ -272,8 +274,9 @@ body {
 }
 /*профессии в секции команда*/
 .prof-item {
+  margin-top: 0;
   margin-bottom: 0;
-  padding-top: 10px;
+  padding-bottom: 30px;
   color: var(--secondary-text-color);
   font-size: 16px;
   line-height: 1.9px; 
@@ -350,10 +353,11 @@ body {
   .card-set {
     display: flex;
     flex-wrap: wrap;
-    
+    margin: -15px;
   }
   .card-set > .card-work {
-
+    width: 370px;
+    margin: 15px;
   }
 .card-work {
   display: flex;
@@ -365,11 +369,15 @@ body {
 .span-studio-footer {
   color: var(--primery-white-color);
 }
-.list-footer {
-  text-decoration: none;
+.logo-footer{
+  padding-top: 60px;
+  padding-left: 201px;
+  padding-right: 1226px;
+
 }
+
 .section-footer {
-  background-color: var(--bg-hero-color);
+  background-color: var(--bg-hero-color); 
 }
 .address {
   color: var(--button-hero-text-color);
@@ -391,6 +399,19 @@ body {
 }
 .list-footer {
   list-style: none;
+  margin-top: 0;
+  margin-bottom: 0;
+  
+}
+.logo-footer {
+  display: block;
+  padding-bottom: 20px;
+}
+.footer-set {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: flex-start;
 }
 
 
