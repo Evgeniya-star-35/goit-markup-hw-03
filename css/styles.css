@@ -133,26 +133,27 @@ body {
 
 /*секция герой 1 стр*/
 .section-hero {
-  margin-top: 0;
   background-color: var(--bg-hero-color);
+  padding: 200px 252px;
   text-align: center;
 }
 
 .hero-title {
-  margin-top: 0;
-  margin-bottom: 0;
+  margin: 0 auto;
+  margin-bottom: 30px;
+  max-width: 696px;
   color: var(--primery-white-color);
   font-weight: 900;
   font-size: 44px;
   line-height: 1.4;
   letter-spacing: 0.06em;
-  text-transform: uppercaset;
+  text-transform: uppercase;
   text-align: center;
 }
 .hero-button {
   margin-right: auto;
   margin-left: auto;
-  margin-top: 30px;
+  margin-bottom: 200px;
   border-radius: 4px;
   padding: 10px 32px;
   min-width: 200px;
