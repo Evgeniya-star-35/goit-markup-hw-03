@@ -82,7 +82,9 @@ body {
 
 .contact {
   display: flex;
-  margin: auto;
+  margin-left: auto;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 .contact .item + .item {
   margin-left: 50px;
@@ -109,6 +111,7 @@ body {
 
 /*стилизация ссылок*/
 .link-item {
+  padding: 10px;
   color: var(--primary-text-color);
   font-family: Roboto;
   font-weight: 500;
@@ -249,6 +252,9 @@ body {
   text-transform: uppercase;
 }
 /*текстовый контент в секциях*/
+.team {
+  background-color: var(--secondary-background-color);
+}
 .p-text {
   margin-top: 0;
   margin-bottom: 0;
@@ -374,6 +380,8 @@ body {
   padding-right: 20px;
   margin-left: auto;
   margin-right: auto;
+  margin-top: 0;
+  margin-bottom: 34px;
 }
 
 /*футер*/
