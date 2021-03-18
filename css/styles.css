@@ -219,14 +219,7 @@ body {
   border-bottom-style: solid;
   border-bottom-color: #eeeeee;
 }
-}
-.work-list {
-  width: 1240px;
-  padding-left: 20px;
-  padding-right: 20px;
-  margin-left: auto;
-  margin-right: auto;
-}
+
 .img {
   display: block;
   max-width: 100%;
@@ -317,6 +310,7 @@ body {
 }
 .button-container {
   display: flex;
+  list-style: none;
   align-items: center;
   justify-content: center;
   height: 80px;
@@ -332,8 +326,7 @@ body {
 /*заголовки h2 списка работ*/
 .work-title {
   margin-top: 0;
-  margin-bottom: 4px;
-
+  margin-bottom: 0;
   color: var(--primary-text-color);
   font-weight: 700;
   font-size: 18px;
@@ -341,15 +334,10 @@ body {
   letter-spacing: 0.06em;
 }
 /*текст списка работ*/
-.work-list {
-  margin-top: 0;
-  margin-bottom: 0;
-  list-style: none;
-}
-.work-text {
-  margin-top: 0;
-  margin-bottom: 0;
 
+.work-text {
+  margin: 0;
+  padding-top: 4px;
   color: var(--secondary-text-color);
   font-size: 16px;
   line-height: 1.8;
@@ -358,24 +346,34 @@ body {
 .card-set {
   padding: 0;
   margin: 0;
-  list-style: none;
   display: flex;
   flex-wrap: wrap;
-  margin-left: calc(-1 * var(--card-set-gap));
-  margin-top: calc(-1 * var(--card-set-gap));
+  margin-right: calc(-1 * var(--card-set-gap));
+  margin-bottom: calc(-1 * var(--card-set-gap));
+  list-style: none;
 }
 .card-set > .card-item {
+  margin-right: var(--card-set-gap);
+  margin-bottom: var(--card-set-gap);
   flex-basis: calc(100% / 3 - var(--card-set-gap));
-  margin-left: var(--card-set-gap);
-  margin-top: var(--card-set-gap);
+}
+.card-set:ntn-child(3n) {
+  margin-right: 0;
 }
 
 .description {
-  padding-left: 24px;
-  padding-right: 24px;
+  padding-left: 20px;
+  padding-right: 20px;
   padding-top: 20px;
   padding-bottom: 20px;
   border: 1px solid #eeeeee;
+}
+.work-list {
+  width: 1240px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /*футер*/
