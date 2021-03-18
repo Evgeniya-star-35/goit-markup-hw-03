@@ -7,6 +7,7 @@
   --accent-background-color: #2196f3;
   --button-hero-text-color: #ffffff;
   --bg-hero-color: #2f303a;
+  --card-set-gap: 30px;
 }
 /* цвет основного текста #212121 */
 /* вторичный цвет текста #757575 */
@@ -351,13 +352,18 @@ body {
   letter-spacing: 0.03em;
 }
 .card-set {
+  padding: 0;
+  margin: 0;
+  list-style: none;
   display: flex;
   flex-wrap: wrap;
-  margin: -15px;
+  margin-left: calc(-1 * var(--card-set-gap));
+  margin-top: -30px;
 }
 .card-set > .card-work {
-  width: 370px;
-  margin: 15px;
+  flex-basis: calc(100% / 3 - var(--card-set-gap));
+  margin-left: var(--card-set-gap);
+  margin-top: var(--card-set-gap);
 }
 .card-work {
   display: flex;
