@@ -23,7 +23,7 @@
     <header>
       <div class="container main-nav line">
         <nav class="header-nav">
-          <a href="./index.html" class="logo">
+          <a href="./index.html" class="logo logo-nav">
             <span class="span-web">Web</span
             ><span class="span-studio">Studio</span></a
           >
@@ -60,7 +60,7 @@
         <div class="container">
           <h1 class="visually-hidden">Наши работы</h1>
           <h2 class="visually-hidden">Направления работы</h2>
-          <ul class="work-list button-container">
+          <ul class="work-list list button-container">
             <li class="button-item">
               <button type="button" class="button-filter text-button">
                 Все
@@ -125,15 +125,17 @@
               </div>
             </li>
             <li class="card-item">
-              <article class="card-work">
-                <img
-                  src="./images/Foto2/3foto.jpg"
-                  alt="Сайт ресторана"
-                  width="370"
-                  height="295"
-                  class="img"
-                />
-              </article>
+              <a href="">
+                <article class="card-work">
+                  <img
+                    src="./images/Foto2/3foto.jpg"
+                    alt="Сайт ресторана"
+                    width="370"
+                    height="295"
+                    class="img"
+                  />
+                </article>
+              </a>
 
               <div class="description">
                 <h2 class="work-title">Ресторан Seafood</h2>
@@ -254,35 +256,37 @@
 
     <footer class="section-footer">
       <div class="container">
-        <div class="logo-footer">
-          <a href="./" class="logo">
-            <span class="span-web">Web</span
-            ><span class="span-studio-footer">Studio</span></a
-          >
+        <div class="contact-footer">
+          <div class="logo-footer">
+            <a href="./" class="logo">
+              <span class="span-web">Web</span
+              ><span class="span-studio-footer">Studio</span></a
+            >
+          </div>
+          <address class="address">
+            <ul class="list list-footer">
+              <li>
+                <a
+                  href="https://goo.gl/maps/Ed6KkoPYDBSFaAVK7"
+                  target="_blank"
+                  rel="noreferrer noopener "
+                  class="link-item address"
+                  >г. Киев, пр-т Леси Украинки, 26</a
+                >
+              </li>
+              <li>
+                <a href="mailto:info@devstudio.com" class="link-item email"
+                  >info@devstudio.com</a
+                >
+              </li>
+              <li>
+                <a href="tel:+380961111111" class="link-item tel"
+                  >+38 096 111 11 11</a
+                >
+              </li>
+            </ul>
+          </address>
         </div>
-        <address class="address">
-          <ul class="list-footer">
-            <li>
-              <a
-                href="https://goo.gl/maps/Ed6KkoPYDBSFaAVK7"
-                target="_blank"
-                rel="noreferrer noopener "
-                class="link-item address"
-                >г. Киев, пр-т Леси Украинки, 26</a
-              >
-            </li>
-            <li>
-              <a href="mailto:info@devstudio.com" class="link-item email"
-                >info@devstudio.com</a
-              >
-            </li>
-            <li>
-              <a href="tel:+380961111111" class="link-item tel"
-                >+38 096 111 11 11</a
-              >
-            </li>
-          </ul>
-        </address>
       </div>
     </footer>
   </body>
