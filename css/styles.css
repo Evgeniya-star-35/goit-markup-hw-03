@@ -435,3 +435,8 @@ body {
   margin-left: 0;
   margin-right: auto;
 }
+.contact-footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
